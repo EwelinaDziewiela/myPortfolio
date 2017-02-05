@@ -1,0 +1,202 @@
+body {
+  position: relative;
+  font: 1.5em 'Source Sans Pro', sans-serif, lighter;
+}
+
+#about, #experience, #skills, #education, #contact {
+  padding-top: 50px;
+
+}
+
+.menu-tab {
+  color: black;
+  background: white;
+}
+
+.active .menu-tab {
+  background: black !important;
+  color: white;
+}
+
+.menu-tab:hover {
+  background: black !important;
+  color: white;
+}
+
+#myNavbar {
+  float: right;
+}
+
+.logo-container {
+  text-align: center;
+  width: 100%;
+  margin: 100px 0 120px 0;
+  display: inline-block;
+
+}
+
+.logo-img {
+  width: 500px;
+  display: inline-block;
+
+}
+
+.black-line {
+  border: 1px solid black;
+}
+
+.small-logo {
+  width: 100px;
+}
+
+.section-title {
+  text-align: center;
+  /*margin-top: 80px;*/
+  margin-bottom: 20px;
+}
+
+.section-lead {
+  text-align: center;
+}
+
+.text-wrapper {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+.about-text {
+  width: 50%;
+  display: inline-block;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.6em;
+  font-weight: lighter;
+}
+
+.about-text a {
+  color: black;
+  text-decoration: underline;
+}
+
+.timeline-container {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.horizontal-line {
+  width: 1px;
+  background: black;
+  height: 90%;
+  left: 50%;
+  position: absolute;
+}
+
+.edu-horizontal_line {
+  width: 1px;
+  background: black;
+  height: 80%;
+  left: 50%;
+  position: absolute;
+}
+
+.exp-btn {
+  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  display: inline-block;
+  position: absolute;
+  right: -11px;
+  top: 0;
+}
+
+.exp-text_left {
+  min-height: 100px;
+  text-align: right;
+}
+
+
+.skill-list_container {
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0 100px 0;
+}
+
+.progress {
+  width: 50% !important;
+  display: inline-block;
+  margin: 0 0 0 20px;
+}
+
+.skill-list {
+  text-align: center;
+}
+
+.skill {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.skill li {
+  display: inline-block;
+
+}
+
+.skill span {
+  vertical-align: top;
+  width: 100px;
+  display: inline-block;
+}
+
+.progress-bar {
+  background: black;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+td a, td a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.table-container {
+  display: inline-block;
+  margin-bottom: 80px;
+}
+
+.table td, .table th {
+  border: none !important;
+}
+
+.table {
+  text-align: left;
+  display: inline-block;
+  margin-left: 300px;
+}
+
+.gototop-icon {
+  height: 70px;
+  width: 90px;
+}
+
+.gototop-icon_container {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+
+}
+
+.gototop-icon_container a {
+  display: inline-block;
+  text-align: center;
+}
