@@ -8,16 +8,26 @@
   <link rel="stylesheet" type="text/css"
         media="only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)"
         href="styles/tablet.css"/>
+  <meta name="viewport" content="width=device-width", initial-scale="1">
   <meta charset="UTF-8">
 </head>
 
-<body data-spy="scroll" data-target="#myNavbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <div class="container">
   <div class="row">
     <div class="col-md-6">
       <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div>
 
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
@@ -31,7 +41,7 @@
             </ul>
           </div>
         </div>
-
+        </div>
       </nav>
     </div>
   </div>
@@ -61,14 +71,16 @@
             (but yet exciting!) process of becoming a skilled and experienced Frontend Developer.
             Since 2008 I had worked in the fashion industry as a fashion writer of several mainstream
             glossy magazines. But in 2016 I decided to make a major change in my professional life and just quit.
-            I needed time and space to approach new world of code – something I have dreamt of doing for years
+            <span class="show-more_mobile show-less_mobile">I needed time and space to approach new world of code – something I have dreamt of doing for years
             but never had found a courage. After ripping a lot of my hair off and asking myself 'why on Earth did
             I get into that' I can definitely say that it was the best decision of my life. But let's get straight
-            to the point.
-            The website I have a pleasure to host you on have been created with using plain HTML5, Bootstrap
+            to the point. The website I have a pleasure to host you on have been created with using plain HTML5, Bootstrap
             and some simple jQuery. My aim is to have both solid foundations and knowledge of modern technologies
             such as Angular2 framework. If you agree to share your precious experience and teach me – in return
-            I can offer my hard work, commitment and excitement. <a href="#contact">Let's get in touch!</a></p>
+            I can offer my hard work, commitment and excitement. <a href="#contact">Let's get in touch!</a>
+            </span>
+            <span class="show-more_btn">Show more</span>
+          </p>
         </div>
       </div>
     </div>

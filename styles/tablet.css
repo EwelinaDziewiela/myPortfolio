@@ -1,81 +1,60 @@
-/* ----------- iPad mini ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    position: relative;
+    font: 1.5em 'Source Sans Pro', sans-serif, lighter;
+  }
 
+  .navbar {
+    background: white;
+    text-align: right;
+  }
+
+  .about-text {
+    width: 100%;
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+
+  /*.show-more_mobile {*/
+  /*display: block;*/
+  /*}*/
+  /*.show-less_mobile {*/
+  /*display: none;*/
+  /*}*/
+  /*.show-more_btn {*/
+  /*display: block;*/
+  /*text-transform: uppercase;*/
+  /*text-decoration: underline;*/
+  /*width: 100px;*/
+  /*margin-top: 5px;*/
+  /*}*/
+  .timeline-container {
+    margin-bottom: 100px;
+  }
+
+  .skill-list_container {
+    margin-bottom: 50px;
+  }
+
+  .text-wrapper {
+    margin-bottom: 100px;
+  }
+
+  .logo-container {
+    margin-bottom: 100px;
+  }
+
+  .small-logo {
+    display: none;
+  }
 }
 
-/* Portrait */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 1) {
-
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
 }
 
-/* Landscape */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: landscape)
-and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
-/* ----------- iPad 1 and 2 ----------- */
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
-/* Portrait */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
-/* Landscape */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: landscape)
-and (-webkit-min-device-pixel-ratio: 1) {
-
-}
-
-/* ----------- iPad 3 and 4 ----------- */
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Portrait */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* Landscape */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: landscape)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-}

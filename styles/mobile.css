@@ -1,109 +1,72 @@
-/* ----------- iPhone 4 and 4S ----------- */
+@media only screen and (max-width: 420px) {
 
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    position: relative;
+    font: 1.5em 'Source Sans Pro', sans-serif, lighter;
+  }
 
-}
+  .navbar {
+    background: white;
+    text-align: right;
+  }
 
-/* Portrait */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-}
+  .about-text {
+    width: 100%;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
 
-/* Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
+  .show-more_mobile {
+    display: block;
 
-}
+  }
 
-/* ----------- iPhone 5 and 5S ----------- */
+  .show-less_mobile {
+    display: none;
+  }
 
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2) {
+  .show-more_btn {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: underline;
+    width: 100px;
+    margin-top: 5px;
+  }
 
-}
+  .timeline-container {
+    margin-bottom: 0;
+  }
 
-/* Portrait */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-}
+  .skill-list_container {
+    margin-bottom: 0;
+  }
 
-/* Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
+  .text-wrapper {
+    margin-bottom: 0;
+  }
 
-}
+  .logo-container {
+    margin-bottom: 0;
+  }
 
-/* ----------- iPhone 6 ----------- */
+  .small-logo {
+    display: none;
+  }
 
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2) {
+  .horizontal-line {
+    width: 1px;
+    background: black;
+    height: 87%;
+    left: 50%;
+    position: absolute;
+  }
 
-}
-
-/* Portrait */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
-
-}
-
-/* ----------- iPhone 6+ ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3) {
-
-}
-
-/* Portrait */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
-
+  .edu-horizontal_line {
+    width: 1px;
+    background: black;
+    height: 73%;
+    left: 50%;
+    position: absolute;
+  }
 }

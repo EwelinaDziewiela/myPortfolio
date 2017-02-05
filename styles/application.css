@@ -23,7 +23,15 @@ body {
   color: white;
 }
 
-#myNavbar {
+.icon-bar {
+  background: black;
+}
+
+.navbar-collapse {
+  width: 100%;
+}
+
+.nav {
   float: right;
 }
 
@@ -77,6 +85,10 @@ body {
 .about-text a {
   color: black;
   text-decoration: underline;
+}
+
+.show-more_btn {
+  display: none;
 }
 
 .timeline-container {
@@ -170,7 +182,6 @@ td a, td a:hover {
 }
 
 .table-container {
-  display: inline-block;
   margin-bottom: 80px;
 }
 
