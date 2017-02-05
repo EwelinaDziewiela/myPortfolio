@@ -95,7 +95,7 @@ body {
 .edu-horizontal_line {
   width: 1px;
   background: black;
-  height: 80%;
+  height: 77%;
   left: 50%;
   position: absolute;
 }
@@ -174,6 +174,12 @@ td a, td a:hover {
   margin-bottom: 80px;
 }
 
+.table-wrapper {
+  display: inline-block;
+  text-align: center;
+
+}
+
 .table td, .table th {
   border: none !important;
 }
@@ -181,7 +187,8 @@ td a, td a:hover {
 .table {
   text-align: left;
   display: inline-block;
-  margin-left: 300px;
+  width: 300px;
+
 }
 
 .gototop-icon {
