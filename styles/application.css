@@ -78,7 +78,7 @@ body {
   display: inline-block;
   text-align: justify;
   text-justify: inter-word;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: lighter;
 }
 
@@ -182,7 +182,7 @@ td a, td a:hover {
 }
 
 .table-container {
-  margin-bottom: 80px;
+  margin-bottom: 110px;
 }
 
 .table-wrapper {
